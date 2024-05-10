@@ -1,0 +1,38 @@
+Automate n°29
+    | a   |
+← 0 | 4   | 
+→ 1 | 2,4 | 
+  2 | 3   | 
+← 3 | 0,2 | 
+  4 | 3,5 | 
+  5 | 0   | 
+Automate déjà standardisé
+    | a   |
+← 0 | 4   | 
+→ 1 | 2,4 | 
+  2 | 3   | 
+← 3 | 0,2 | 
+  4 | 3,5 | 
+  5 | 0   | 
+Automate ni déterministe ni complet
+Déterminisation et complétion...
+        | a     |
+← 34    | 0235  | 
+← 0234  | 02345 | 
+→ 1     | 24    | 
+← 02    | 34    | 
+  24    | 35    | 
+← 35    | 02    | 
+← 02345 | 02345 | 
+← 0235  | 0234  | 
+Automate complémentaire...
+        | a     |
+  34    | 0235  | 
+  0234  | 02345 | 
+↔ 1     | 24    | 
+  02    | 34    | 
+← 24    | 35    | 
+  35    | 02    | 
+  02345 | 02345 | 
+  0235  | 0234  | 
+Le mot a est reconnu 
